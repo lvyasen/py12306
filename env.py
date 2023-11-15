@@ -40,7 +40,7 @@ API_USER_CODE_QCR_API = ''
 # 地址：易源 https://market.aliyun.com/products/57126001/cmapi019902.html
 # 2019-01-18 更新
 # 增加新的服务商 鼎信 https://market.aliyun.com/products/56928004/cmapi026600.html?spm=5176.2020520132.101.2.e27e7218KQttQS
-NOTIFICATION_BY_VOICE_CODE = 1  # 开启语音通知
+NOTIFICATION_BY_VOICE_CODE = 0  # 开启语音通知
 NOTIFICATION_VOICE_CODE_TYPE = 'dingxin'  # 语音验证码服务商  可用项 dingxin  yiyuan
 NOTIFICATION_API_APP_CODE = 'your app code'
 NOTIFICATION_VOICE_CODE_PHONE = 'your phone'  # 接受通知的手机号
@@ -73,8 +73,8 @@ PUSHBEAR_KEY = ''
 
 # Bark 推送到ios设备
 # 参考 https://www.v2ex.com/t/467407
-BARK_ENABLED = 0
-BARK_PUSH_URL = 'https://api.day.app/:your_token'
+BARK_ENABLED = 1
+BARK_PUSH_URL = 'https://api.day.app/BtPRvbHrQ9yvr6VKzAEwMk/'
 
 # 输出日志到文件
 OUT_PUT_LOG_TO_FILE_ENABLED = 1
