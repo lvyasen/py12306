@@ -74,7 +74,7 @@ PUSHBEAR_KEY = ''
 # Bark 推送到ios设备
 # 参考 https://www.v2ex.com/t/467407
 BARK_ENABLED = 1
-BARK_PUSH_URL = 'https://api.day.app/BtPRvbHrQ9yvr6VKzAEwMk/'
+BARK_PUSH_URL = 'https://api.day.app/:BtPRvbHrQ9yvr6VKzAEwMk/'
 
 # 输出日志到文件
 OUT_PUT_LOG_TO_FILE_ENABLED = 1
